@@ -12,8 +12,9 @@
             <div id="info-container" class="col-md-6">
                 <h1>{{ $pet->title }}</h1>
                 <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{$pet->endereço}} . {{$pet->number}}</p>
-                <p class="events-participants"><ion-icon name="people-outline"></ion-icon>ONG MIAUJUDAMOS</p>
-                <p class="event-owner"><ion-icon name="star-outline"></ion-icon>{{$petOwner['name']}}</p>
+                <p class="events-participants"><ion-icon name="people-circle-outline"></ion-icon>ONG MIAUJUDAMOS</p>
+                <p class="event-owner"><ion-icon name="person-outline"></ion-icon>{{$petOwner['name']}}</p>
+                <p class="event-contato"><ion-icon name="chatbubbles-outline"></ion-icon> {{$pet->contato}}</p>
                 @if(!$hasUserJoined)
                 <form action="/pets/join/{{$pet->id}}" method="POST">
                     @csrf

@@ -21,11 +21,11 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                        <img src="/img/IMG-20210824-WA0019.svg" alt="Miaujuda">
+                        <img src="/img/miaujuda-icon.svg" alt="Miaujuda">
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Pets Resgatados</a>
+                            <a href="/" class="nav-link">Ocorrencias e Resgates</a>
                         </li>
                         <li class="nav-item">
                             <a href="/pets/create" class="nav-link">Realizar Ocorrencia</a>

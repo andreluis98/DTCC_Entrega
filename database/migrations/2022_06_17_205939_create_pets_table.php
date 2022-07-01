@@ -25,8 +25,8 @@ return new class extends Migration
             $table->integer("number");
             $table->string("complemento");
             $table->text("refere");
-            $table->string("nomeSol");
-            $table->string("SobrenomeSol");
+           // $table->string("nomeSol");
+            //$table->string("SobrenomeSol");
             $table->string("contato");
         });
     }

@@ -88,6 +88,9 @@
             <div class="form-group">
                 <input type="checkbox" name="items[]" value="Sangramento">Sangramento
             </div>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="Nenhuma">Nenhuma Lesão Aparente
+            </div>
             
            
         </div>

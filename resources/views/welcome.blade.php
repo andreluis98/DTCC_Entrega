@@ -11,8 +11,8 @@
         </form>
 </div>
 <div id="events-container" class="col-md-12">
-        <h2>Pets Regastados</h2>
-        <p class="subtitle">Veja os pets que já resgatamos com a ajuda de ongs parceiras e das ocorrencias realizadas</p>
+        <h2>Pets</h2>
+        <p class="subtitle">Veja Abaixo os pets que se encontrarm em situação de rua e necessitam de sua ajuda!</p>
         <div id="card-container" class="row">
                 @foreach($pets as $pet)
                 <div class="card col-md3">
@@ -20,7 +20,7 @@
                         <div class="card-body">
                                 <p class="card-date">{{ date('d/m/Y', strtotime($pet->date)) }}</p>
                                 <h5 class="card-title">{{ $pet->title }}</h5>
-                                <p class="card-participants">X participantes</p>
+                                <p class="card-participants">ONG Miaujudamos</p>
                                 <a href="/pets/{{$pet->id}}" class="btn btn-primary">Saber mais</a>
 
                         </div>
